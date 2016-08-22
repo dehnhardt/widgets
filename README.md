@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Widget
 Place this app in **nextcloud/apps/**
 
@@ -50,3 +51,6 @@ or:
     phpunit -c phpunit.integration.xml
 
 for integration tests
+=======
+# widgets
+>>>>>>> refs/remotes/Widget/master
