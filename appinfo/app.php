@@ -20,7 +20,7 @@ $container = $app->getContainer();
 
 $container->query( 'OCP\INavigationManager' )->add( function () use ($container) {
 	\OCP\Util::writeLog( 'Widgets', 'Widgets: app.php', \OCP\Util::DEBUG );
-	
+	$la = 'lo';
 	$urlGenerator = $container->query( 'OCP\IURLGenerator' );
 	$l10n = $container->query( 'OCP\IL10N' );
 	return [
