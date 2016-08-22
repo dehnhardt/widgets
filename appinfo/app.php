@@ -54,6 +54,6 @@ $dispatcher = \OC::$server->getEventDispatcher();
 
 if ($dispatcher) {
 	\OCP\Util::writeLog( 'Widgets', 'Widgets before add listener', \OCP\Util::DEBUG );
-	//$dispatcher->addListener( 'dashboard.callwidgets', $listener );
+	$dispatcher->addListener( 'OCA\Dashboard\RequestWidget', $listener );
 	\OCP\Util::writeLog( 'Widgets', 'Widgets after add listener', \OCP\Util::DEBUG );
 }
