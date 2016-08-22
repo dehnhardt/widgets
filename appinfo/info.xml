@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<info>
+    <id>widget</id>
+    <name>Widget</name>
+    <description>Test app für die Widgets</description>
+    <licence>AGPL</licence>
+    <author>Holger Dehnhardt</author>
+    <version>0.0.1</version>
+    <namespace>Widget</namespace>
+    <category>other</category>
+    <dependencies>
+        <owncloud min-version="8.1" max-version="10.1" />
+    </dependencies>
+</info>
